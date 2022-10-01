@@ -1,0 +1,49 @@
+.container{
+    margin: auto;
+    margin-top: 70px;
+    max-width: 360px;
+    background-color: antiquewhite;
+    box-shadow: 7px 6px 30px black;
+}
+#display{
+    background-color: rgb(211, 225, 225);
+    height: 65px;
+    text-align: right;
+    font-size:30px;
+    padding: 4px 5px;
+    border: 1px solid rgb(122, 129, 129);
+}
+.button{
+    background-color: bisque;
+    border: 1px solid rgb(119, 114, 108);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    height: 410px;
+}
+.btn{
+    height: 30px;
+    padding: 9px;
+    margin: 9px;
+    font-size: 25px;
+    background-color: rgb(216, 220, 224);
+    border: 1px solid;
+    border-radius: 4px;
+
+}
+.btn:hover{
+    background-color: rgb(53, 51, 51);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+#plus{
+    font-weight: bold;
+}
+#clear{
+    background-color: rgb(212, 156, 90);
+}
+#equal{
+    background-color: rgb(212, 156, 90);
+    font-weight: bold;
+}
